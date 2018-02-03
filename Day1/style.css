@@ -1,0 +1,92 @@
+#menu {
+  height: 300px;
+  width: 300px;
+  #border: 2px solid blue;
+  margin-left: 40%;
+}
+#wrapper{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  float: right;
+  #border: 1px solid black;
+}
+#circle {
+  float: right;
+  background: #cc0066;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: block;
+}
+
+#menu-lines {
+  display: block;
+  height: 60px;
+  width: 60px;
+}
+
+.line {
+  display: block;
+  position: relative;
+  height: 5px;
+  width: 30px;
+  background: white;
+  top: 18px;
+  left: 16px;
+}
+
+.gap {
+  height: 5px;
+}
+
+#wrapper:hover{
+  height: 180px;
+  width: 180px;
+}
+#wrapper:hover #circle{
+  width: 250px;
+  height: 250px;
+  margin: -5px;
+}
+
+#wrapper:hover #menu-lines {
+  display: none;
+}
+.fa-heart{
+  position:absolute;
+  float: right;
+  top: 20px;
+  right: 140px;
+  color: white;
+}
+.fa-camera{
+  position:absolute;
+  float: right;
+  top: 90px;
+  right: 195px;
+  color: white;
+}
+.fa-codepen{
+  position:absolute;
+  float: right;
+  top: 180px;
+  right: 160px;
+  color: white;
+}
+.fa-earlybirds{
+  position:absolute;
+  float: right;
+  top: 185px;
+  right: 60px;
+  color: white;
+}
+.fa-times{
+  position:absolute;
+  float: right;
+  top: 62px;
+  right: 30px;
+  color: white;
+  
+}
