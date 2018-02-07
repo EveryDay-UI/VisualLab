@@ -1,0 +1,161 @@
+body{
+  background: #2d3436;
+  position: relative;
+}
+
+#box{
+  #border: 1px solid white;
+  width: 800px;
+  height: 180px;
+  margin: 0px 300px;
+  top: 40px;
+  position: relative;
+}
+
+.button{
+  #float: left;
+  #margin: 15px 50px;
+  background: #74b9ff;
+  width: 160px;
+  height: 50px;
+  border-radius: 8px;
+  #position: relative;
+  #border: 1px solid white;
+  
+}
+
+#twitter-btn
+{
+  width: 160px;
+  height: 50px;
+  #border: 1px solid white;
+  float: left;
+  margin: 15px 50px;
+  position: relative;
+
+  -webkit-transition: background 3s;
+  transition: background 3s;
+
+}
+
+#instagram-btn
+{
+  width: 160px;
+  height: 50px;
+  #border: 1px solid white;
+  float: left;
+  margin: 15px 50px;
+  position: relative;
+
+  -webkit-transition: background 3s;
+  transition: background 3s;
+
+}
+
+#facebook-btn
+{
+  width: 160px;
+  height: 50px;
+  #border: 1px solid white;
+  float: left;
+  margin: 15px 50px;
+  position: relative;
+
+  -webkit-transition: background 3s;
+  transition: background 3s;
+
+}
+.fa-twitter-square{
+  position: absolute;
+  left: 22px;
+  top: 10px;
+  color : white;
+}
+.fa-instagram{
+  position: absolute;
+  left: 22px;
+  top: 10px;
+  color : white;
+}
+.fa-facebook-square{
+  position: absolute;
+  left: 22px;
+  top: 10px;
+  color : white;
+}
+.button span{
+  position: absolute;
+  left: 62px;
+  top: 13px;
+  font-size: 22px;
+  color : white;
+}
+
+#twitter{
+  opacity: 0;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 210px;
+  color: white;
+  font-size: 24px;
+
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+#instagram{
+  opacity: 0;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 210px;
+  color: white;
+  font-size: 24px;
+
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+#facebook{
+  opacity: 0;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 210px;
+  color: white;
+  font-size: 24px;
+
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+#twitter-btn:hover ~ #twitter {
+  opacity: 1;
+}
+
+#twitter-btn:hover .button{
+  background: #00cec9;
+}
+
+
+
+#instagram-btn:hover .button{
+  background: #00cec9;
+}
+
+#instagram-btn:hover ~ #instagram{
+  opacity: 1;
+}
+
+#facebook-btn:hover .button{
+  background: #00cec9;
+}
+
+#facebook-btn:hover ~ #facebook{
+  opacity: 1;
+}
+
