@@ -1,0 +1,92 @@
+body{
+  background: black;
+}
+#box{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  #border: 1px solid white;
+  margin: auto;
+ }
+#small-box{
+  height: 65px;
+  width: 65px;
+  #border: 2px solid #d35400;
+  position: relative;
+  top: 120px;
+  left: 120px;
+  animation: r 3s linear infinite;
+}
+#small-ring{
+  height: 60px;
+  width: 60px;
+  border: 2px solid #d35400;
+  border-radius: 50%;
+  position: absolute;
+}
+#small-ball{
+  height: 14px;
+  width: 14px;
+  background: #d35400;
+  border-radius: 50%;
+  position: absolute;
+  top: 23px;
+  left: -7px;
+}
+
+#med-box{
+  height: 160px;
+  width: 160px;
+  #border: 2px solid #d35400;
+  position: relative;
+  top: 7px;
+  left: 72px;
+  animation: r 8s linear infinite;
+}
+#med-ring{
+  height: 155px;
+  width: 155px;
+  border: 2px solid #d35400;
+  border-radius: 50%;
+  position: absolute;
+}
+#med-ball{
+  height: 25px;
+  width: 25px;
+  background: #d35400;
+  border-radius: 50%;
+  position: absolute;
+  top: 93px;
+  left: -4px;
+}
+
+#large-box{
+  height: 300px;
+  width: 300px;
+  #border: 2px solid #d35400;
+  position: relative;
+  top: -227px;
+  left: 0px;
+  animation: r 15s linear infinite;
+}
+#large-ring{
+  height: 295px;
+  width: 295px;
+  border: 2px solid #d35400;
+  border-radius: 50%;
+  position: absolute;
+}
+#large-ball{
+  height: 40px;
+  width: 40px;
+  background: #d35400;
+  border-radius: 50%;
+  position: absolute;
+  top: 123px;
+  left: 273px;
+}
+@keyframes r{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
